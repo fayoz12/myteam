@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_wrapper {
+  width: 1440px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 50px auto;
+  background-color: #014e56;
+}
+
+.nav_title {
+  /* myteam */
+  width: 159.95px;
+  height: 40px;
+  color: white;
+}
+
+.nav_link {
+  width: 49px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+
+.nav_btn {
+  width: 88px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 153px;
+  height: 48px;
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+}
+
+.nav_wrapper_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 48px;
+  margin: 50px auto;
+}
+
+.nav_link_box {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.intro_box_wrapper {
+  width: 1102px;
+  height: 200px;
+  margin: 170px auto;
+}
+
+.intro_title {
+  width: 532px;
+  height: 200px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  /* or 100% */
+  color: #ffffff;
+}
+
+.nav_spn {
+  width: 532px;
+  height: 200px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  /* or 100% */
+  color: #f67e7e;
+}
+
+.intro_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro_text {
+  width: 432px;
+  height: 112px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #ffffff;
+}
+
+.collections_wrapper {
+  width: 1440px;
+  height: 684px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #012f34;
+}
+
+.collections_title {
+  width: 445px;
+  height: 144px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  color: #ffffff;
+}
+
+.right_collections_title {
+  width: 445px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #f67e7e;
+}
+
+.right_collections_text {
+  width: 445px;
+  height: 50px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.collections_box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin: 120px 210px;
+}
+
+.stk {
+  margin-top: 500000px;
+}
+
+.collections_blok1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 15px 0;
+}
+
+.art_wrapper {
+  width: 1440px;
+  height: 745px;
+  margin: 50px auto;
+  background: #004047;
+}
+
+.art_person {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: 50px;
+  width: 62px;
+  height: 62px;
+}
+
+.art_title {
+  width: 932px;
+  height: 96px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+  color: #ffffff;
+}
+
+.art_spn {
+  width: 932px;
+  height: 96px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  color: #79c8c7;
+}
+
+.art_text {
+  width: 350px;
+  height: 100px;
+  font-family: "Livvic";
+  padding: 15px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.art_box_title {
+  width: 350px;
+  height: 28px;
+  padding: 15px 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #79c8c7;
+}
+
+.art_job_text {
+  width: 350px;
+  height: 18px;
+  padding: 15px 0;
+  font-family: "Livvic";
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.art_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 210px 120px;
+}
+
+.footer_wrapper {
+  width: 1440px;
+  height: 196px;
+  margin: 50px auto;
+  background: #002529;
+}
+
+.footer_title {
+  width: 159.95px;
+  height: 40px;
+  color: white;
+}
+
+.footer_link {
+  width: 49px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+
+.footer_link_box {
+  display: flex;
+  gap: 25px;
+}
+
+.footer_text {
+  width: 445px;
+  height: 100px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.footer_text_box {
+  display: flex;
+  gap: 50px;
+}
+
+.footer_glav_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_right_img_box {
+  display: flex;
+  gap: 50px;
+}
+
+.asd_wrapper {
+  width: 1440px;
+  height: 200px;
+  margin: auto;
+  background: #f67e7e;
+}
+
+.asd_box {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+
+.asd_title {
+  width: 504px;
+  height: 48px;
+  font-family: "Livvic";
+  font-style: normal;
+  margin: 50px 50px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  color: #012f34;
+}
+
+.asd_btn {
+  width: 88px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #012f34;
+  box-sizing: border-box;
+  background-color: inherit;
+  width: 153px;
+  height: 48px;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+}/*# sourceMappingURL=style.css.map */

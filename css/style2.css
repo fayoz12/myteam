@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Livvic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_wrapper {
+  width: 1440px;
+  height: 700px;
+  border: 1px solid black;
+  margin: 50px auto;
+  background-color: #014e56;
+}
+
+.nav_title {
+  /* myteam */
+  width: 159.95px;
+  height: 40px;
+  color: white;
+}
+
+.nav_link {
+  width: 49px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+
+.nav_btn {
+  width: 88px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 153px;
+  height: 48px;
+  background-color: inherit;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+}
+
+.nav_wrapper_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 48px;
+  margin: 50px auto;
+}
+
+.nav_link_box {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.intro_title {
+  width: 350px;
+  height: 100px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+
+.intro_box {
+  display: flex;
+  align-items: center;
+  margin: 210px 210px;
+}
+
+.intro_text {
+  width: 730px;
+  height: 112px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #ffffff;
+}
+
+.collec_wrapper {
+  width: 1440px;
+  height: 1002px;
+  border: 1px solid black;
+  margin: 50px auto;
+  background-color: #004047;
+}
+
+.collec_title {
+  width: 920px;
+  height: 48px;
+  margin: auto;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.collec_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 1110px;
+  height: 722px;
+  margin: 120px auto;
+}
+
+.collec_blok1 {
+  width: 350px;
+  height: 253px;
+  background: #012f34;
+}
+
+.collec_mini_title {
+  width: 302px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+  color: #79c8c7;
+}
+
+.collec_text {
+  width: 302px;
+  height: 25px;
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+  padding: 15px 15px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.collec_img {
+  margin-left: 120px;
+}
+
+.collec_blok2 {
+  width: 350px;
+  height: 253px;
+  background: #002529;
+}
+
+.asd_wrapper {
+  width: 1440px;
+  height: 200px;
+  margin: auto;
+  background: #f67e7e;
+}
+
+.asd_box {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+
+.asd_title {
+  width: 504px;
+  height: 48px;
+  font-family: "Livvic";
+  font-style: normal;
+  margin: 50px 50px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  color: #012f34;
+}
+
+.asd_btn {
+  width: 88px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #012f34;
+  box-sizing: border-box;
+  background-color: inherit;
+  width: 153px;
+  height: 48px;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+}
+
+ 
+
+.art_wrapper {
+  width: 1440px;
+  height: 437px;
+  margin: 50px auto;
+  background: #012f34;
+}
+
+.art_title {
+  width: 920px;
+  height: 48px;
+  font-family: "Livvic";
+  font-style: normal;
+  margin: auto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.art_title_box {
+  display: flex;
+  align-items: center;
+  margin: 120px 310px;
+}
+
+.art_mini_title {
+  width: 165px;
+  height: 28px;
+  margin-left: 70px;
+  color: #ffffff;
+}
+
+.footer_wrapper {
+  width: 1440px;
+  height: 196px;
+  margin: 50px auto;
+  background: #002529;
+}
+
+.footer_title {
+  width: 159.95px;
+  height: 40px;
+  color: white;
+}
+
+.footer_link {
+  width: 49px;
+  height: 28px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  color: #ffffff;
+}
+
+.footer_link_box {
+  display: flex;
+  gap: 25px;
+}
+
+.footer_text {
+  width: 445px;
+  height: 100px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.footer_text_box {
+  display: flex;
+  gap: 50px;
+}
+
+.footer_glav_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_right_img_box {
+  display: flex;
+  gap: 50px;
+}/*# sourceMappingURL=style2.css.map */
+
+
+
+ 

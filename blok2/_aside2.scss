@@ -1,0 +1,48 @@
+.asd_wrapper {
+    width: 1440px;
+    height: 200px;
+    margin: auto;
+    background: #f67e7e;
+  }
+  .asd_box {
+    display: flex;
+    align-items: center;
+    gap: 500px;
+  }
+  
+  .asd_title {
+    width: 504px;
+    height: 48px;
+  
+    font-family: "Livvic";
+    font-style: normal;
+    margin: 50px 50px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+  
+    color: #012f34;
+  }
+  
+  .asd_btn {
+    width: 88px;
+    height: 28px;
+  
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+  
+    color: #012f34;
+  
+    box-sizing: border-box;
+    background-color: inherit;
+    width: 153px;
+    height: 48px;
+    border: 2px solid #012f34;
+    border-radius: 24px;
+  }
+  

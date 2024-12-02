@@ -1,0 +1,98 @@
+.art_wrapper {
+  width: 1440px;
+  height: 745px;
+  margin: 50px auto;
+  background: #004047;
+}
+.art_person {
+  position: absolute;
+  margin-left: 135px;
+  margin-top: 50px;
+  width: 62px;
+  height: 62px;
+}
+
+.art_title {
+  width: 932px;
+  height: 96px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+  margin: auto;
+  padding: 15px 0;
+
+  color: #ffffff;
+}
+.art_spn {
+  width: 932px;
+  height: 96px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+  text-align: center;
+
+  color: #79c8c7;
+}
+
+.art_text {
+  width: 350px;
+  height: 100px;
+
+  font-family: "Livvic";
+  padding: 15px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.art_box_title {
+  width: 350px;
+  height: 28px;
+  padding: 15px 0;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+
+  color: #79c8c7;
+}
+
+.art_job_text {
+  width: 350px;
+  height: 18px;
+  padding: 15px 0;
+
+  font-family: "Livvic";
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.art_glav_box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 210px 120px;
+}

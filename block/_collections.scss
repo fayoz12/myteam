@@ -1,0 +1,70 @@
+.collections_wrapper {
+  width: 1440px;
+  height: 684px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #012f34;
+}
+
+.collections_title {
+  width: 445px;
+  height: 144px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  color: #ffffff;
+}
+
+.right_collections_title {
+  width: 445px;
+  height: 28px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #f67e7e;
+}
+
+.right_collections_text {
+  width: 445px;
+  height: 50px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.collections_box {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin: 120px 210px;
+}
+
+.stk {
+  margin-top: 500000px;
+}
+
+.collections_blok1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 15px 0;
+}

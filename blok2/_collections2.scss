@@ -1,0 +1,79 @@
+.collec_wrapper {
+  width: 1440px;
+  height: 1002px;
+  border: 1px solid black;
+  margin: 50px auto;
+  background-color: #004047;
+}
+
+.collec_title {
+  width: 920px;
+  height: 48px;
+  margin: auto;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.collec_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 1110px;
+  height: 722px;
+  margin: 120px auto;
+}
+
+.collec_blok1 {
+  width: 350px;
+  height: 253px;
+
+  background: #012f34;
+}
+
+.collec_mini_title {
+  width: 302px;
+  height: 28px;
+
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  text-align: center;
+
+  color: #79c8c7;
+}
+
+.collec_text {
+  width: 302px;
+  height: 25px;
+
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+  padding: 15px 15px;
+  /* identical to box height, or 167% */
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.collec_img {
+  margin-left: 120px;
+}
+
+.collec_blok2 {
+  width: 350px;
+  height: 253px;
+
+  background: #002529;
+}
